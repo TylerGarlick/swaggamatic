@@ -1,0 +1,34 @@
+{
+  "name": "swaggamatic",
+  "version": "1.0.0",
+  "description": "Opinionated swagger client",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "ava test -r 'babel-register'",
+    "build": "babel src -s inline -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://TylerGarlick@github.com/TylerGarlick/swaggamatic.git"
+  },
+  "keywords": [
+    "Swagger",
+    "Client",
+    "Generated",
+    "Client",
+    "HTTP"
+  ],
+  "author": "Tyler Garlick <tjgarlick@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TylerGarlick/swaggamatic/issues"
+  },
+  "homepage": "https://github.com/TylerGarlick/swaggamatic#readme",
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "babel-cli": "^6.9.0",
+    "babel-preset-pundits": "^1.0.5",
+    "babel-register": "^6.9.0",
+    "eslint-config-leisurelink": "^1.0.2"
+  }
+}
