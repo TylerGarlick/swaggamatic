@@ -1,0 +1,2 @@
+# swaggamatic
+Opinionated swagger client 
