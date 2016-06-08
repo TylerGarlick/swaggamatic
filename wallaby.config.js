@@ -1,4 +1,4 @@
-module.exports = (wallaby) => ({
+module.exports = wallaby => ({
   files: [
     'src/**/*',
     'test/**/*',
@@ -9,9 +9,7 @@ module.exports = (wallaby) => ({
   ],
   env: {
     type: 'node',
-    // env: {
-    //   params: 'DEBUG=*;'
-    // }
+    runner: 'node'
   },
   compilers: {
     '**/*.js': wallaby.compilers.babel()

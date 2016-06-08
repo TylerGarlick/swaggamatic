@@ -29,6 +29,11 @@
     "babel-cli": "^6.9.0",
     "babel-preset-pundits": "^1.0.5",
     "babel-register": "^6.9.0",
+    "eslint": "^2.11.1",
     "eslint-config-leisurelink": "^1.0.2"
+  },
+  "dependencies": {
+    "swagger-client": "^2.1.14",
+    "swagger-parser": "^3.4.1"
   }
 }
